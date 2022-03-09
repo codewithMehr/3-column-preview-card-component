@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+.box {
+  width: 250px;
+  height: 350px;
+}
+.box1 {
+  background: url(icon-sedans.svg) no-repeat;
+  background-color: hsl(31, 77%, 52%);
+}
+.box2 {
+  background: url(icon-suvs.svg) no-repeat;
+  background-color: hsl(184, 100%, 22%);
+}
+.box3 {
+  background: url(icon-luxury.svg) no-repeat;
+  background-color: hsl(179, 100%, 13%);
+}
+.heading {
+  margin-top: 60px;
+  margin-left: 30px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+.par {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+.submit {
+  margin-top: 60px;
+  margin-left: 30px;
+  border-radius: 12px;
+  width: 100px;
+  height: 30px;
+  border-color: white;
+  cursor: pointer;
+}
+.s1 {
+  color: hsl(31, 77%, 52%);
+}
+.s2 {
+  color: hsl(184, 100%, 22%);
+}
+.s3 {
+  color: hsl(179, 100%, 13%);
+}
+.s1:hover {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+}
+.s2:hover {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+}
+.s3:hover {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .container {
+    display: flex;
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 95%);
+  }
+  .box {
+    width: 250px;
+    height: 450px;
+  }
+}
